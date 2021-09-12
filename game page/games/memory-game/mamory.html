@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="p.jpg" type="image/jpg" size="1200x1200">
+    <title>Memory game</title>
+    <style>
+    button{
+      width:100px;
+      background-color:teal;
+      height:50px;
+      color:white;
+    }
+    </style>
+</head>
+<body style="background-color:pink;">
+  <marquee behavior="scroll" direction="left" style="color:rgb(221, 17, 136);font-size:24px;">Memory Game</marquee>
+    <div class="container" style="background-color:white;width:50%;margin:80px auto;display:flex;flex-direction:column;align-items: center;">
+        
+      <div id="mydiv" >
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+      </div>
+      <div>
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+      </div>
+      <div>
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+        
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+      </div>
+        <div>
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+        <img src="Moon.gif" alt="moon.gif"  onclick="appimg(this)" onmouseover="check(this)">
+      </div>
+    
+    </div>
+    <div style="width:60%;margin:auto;display:flex;justify-content: space-evenly;">
+      <button>play</button>
+     <button>close</button>
+  </div>
+        <script src="memoryGame.js"></script>
+</body>
+</html>

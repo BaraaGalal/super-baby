@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="p.jpg" type="image/jpg" size="1200x1200">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="d-game-middle-col"> <!-- Middle and main  part of the main page area -->
+        <div class="d-game-finish-message-wrapper" id="k-m-gamefinish-message-wrapper">
+                   Well Done! <br>
+                   You are doing great! <br>
+                   You scored <br><span class="d-g-final-score" id="k-m-game-final-score">  </span><br>  out of <br><span class="d-g-final-marks" id="d-g-final-marks"> 10 </span>
+                   <div class="d-g-f-m-buttons-wrapper">
+                        <button class="d-game-start-btn" id="k-m-game-play-again-btn" onclick="gameclose()"> Play Again </button>
+                        <button class="d-game-close-btn" id="k-m-f-game-close-btn"> &#215; </button>
+                    </div>
+    
+                </div>
+                
+                <div class="d-game-score-wrap"> Your Score: <span class="d-game-score" id="k-m-game-score"> 0 </span> of <span class="d-game-score" id="k-m-game-length"> 0  </div>
+                <div class="d-game-main-wrapper">
+                    <div class="d-game-instructions" id="k-m-game-instructions">
+                            1.  Click on Start to start the game. <br>
+                            2.  Deck cover will slide and pictures will be displayed for 5 seconds. <br>
+                            3.  Memorize the picture placement within that time. <br>
+                            4. Program will tell you any one name of the picture by sound and word. <br>
+                            5. You have to make the correct guess and click on guessed deck. <br>
+                            6. If you succeed, you will get 1 score and if not score will not be awarded.<br>
+    
+                    </div>
+                    <div class="d-game-placeholder" id="m-k-m-game-placeholder">
+                        
+                       
+                    </div> <!--End of d-game-place-holder -->
+                    <div class="d-game-options-wrap" id="k-m-game-options-wrap">
+                    </div>
+                    <div class="d-game-buttons-row">
+                        <button class="d-game-start-btn" id="k-m-game-start-btn"> Start </button>
+                        
+                        <button class="d-game-instructions-btn" id="k-m-game-instruction-btn"> &#33; </button> 
+                    </div>
+                </div> <!-- End of d-game-main-wrapper -->
+      </div>
+     
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

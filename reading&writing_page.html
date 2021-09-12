@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading & Writing</title>
+   <link rel="stylesheet" href="style(W&R).css">
+  </head>
+  <body>
+<table >
+  <div class="container">
+    <tr>
+      <td colspan="2" >
+        <div class="btnscover">
+          <button id="btnwrite" onclick="showwrite()">Writing</button>
+        <button id="btnread" onclick="showread()">Reading</button>
+        </div>
+        
+      </td>
+     
+    </tr>
+  <tr>
+    <td>
+      <div class="first-read" id="read1">
+        <a href="myfamily.html">
+        <img src="family/pics/1.jpeg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p> هذه أسرتى</p></a>
+      </div>
+   
+    <div class="second-write" id="write2">
+          <a href="writingteach.html">
+            <img src="writnigteach.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+            <p>تعلم كتابة الحروف</p></a>
+        </div>
+    </td>
+    <td>
+     <div class="first-write" id="write1">
+        <a href="animalbook.html">
+        <img src="animalbook/animalbook.jpeg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p> كتاب الحيوانات</p></a>
+      </div>
+        <div class="second-read" id="read2">
+          <a href="abc.html">
+            <img src="imgs/abcimg.jpg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+            <p> الحروف الابجدية العربية</p></a>
+        </div>
+        
+      </td>
+      </tr>
+      <tr>
+        <td><div class="third-read" id="read3">
+        <a href="abc.html">
+          <img src="imgs/abcimg.jpg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+          <p> الحروف الابجدية العربية</p></a>
+      </div> 
+     <div class="fourth-write" id="write4">
+        <a href="animalbook.html">
+        <img src="animalbook/animalbook.jpeg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p> كتاب الحيوانات</p></a>
+      </div>
+     
+    </td>
+      <td>
+          <div class="fourth-read" id="read4">
+        <a href="myfamily.html">
+        <img src="family/pics/1.jpeg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p> هذه أسرتى</p></a>
+      </div>
+       <div class="third-write" id="write3">
+        <a href="writingteach.html">
+          <img src="writnigteach.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+          <p>تعلم كتابة الحروف</p></a>
+      </div>
+      
+      </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="first-read" id="read5">
+        <a href="readedu.html">
+        <img src="imgs/readedu.jpg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p> تعلم القراءة جيدا</p></a>
+      </div>
+   
+    <div class="second-write" id="write5">
+          <a href="numbers.html">
+            <img src="imgs/numbers.jpg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+            <p>تعلم كتابة الارقام</p></a>
+        </div>
+    </td>
+    <td>
+     <div class="first-write" id="write6">
+        <a href="colors.html">
+        <img src="imgs/colors.jpg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p> تعلم الألوان</p></a>
+      </div>
+        <div class="second-read" id="read6">
+          <a href="alphabets.html">
+            <img src="imgs/alphapets.jpg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+            <p> الحروف الابجدية الانجليزية</p></a>
+        </div>
+        
+      </td>
+      </tr>
+</div>
+</table>
+<script>
+  var btnread=document.getElementById("btnread");
+  var btnwrite=document.getElementById("btnwrite");
+  var read1=document.getElementById("read1");
+  var read2=document.getElementById("read2");
+  var read3=document.getElementById("read3");
+  var read4=document.getElementById("read4");
+  var write1=document.getElementById("write1");
+  var write2=document.getElementById("write2");
+  var write3=document.getElementById("write3");
+  var write4=document.getElementById("write4");
+  var read5=document.getElementById("read5");
+  var write5=document.getElementById("write5"); 
+  var read6=document.getElementById("read6");
+  var write6=document.getElementById("write6");
+  
+  function showread(){
+read1.style.visibility="visible";read2.style.visibility="visible";read3.style.visibility="hidden";read4.style.visibility="hidden";read5.style.visibility="visible";read6.style.visibility="visible";
+read1.style.display="block";read2.style.display="block";read3.style.display="none";read4.style.display="none";read5.style.display="block";read6.style.display="block";
+write1.style.visibility="hidden";write2.style.visibility="hidden";write3.style.visibility="hidden";write4.style.visibility="hidden";write5.style.visibility="hidden";write6.style.visibility="hidden";
+write1.style.display="none";write2.style.display="none";write3.style.display="none";write4.style.display="none";write5.style.display="none";write6.style.display="none";
+
+  }
+function showwrite(){
+  write1.style.visibility="visible";write2.style.visibility="visible"; write3.style.visibility="hidden";write4.style.visibility="hidden";write5.style.visibility="visible";write6.style.visibility="visible";
+  write1.style.display="block";write2.style.display="block";write3.style.display="none";write4.style.display="none";write5.style.display="block";write6.style.display="block";
+  read1.style.visibility="hidden";read2.style.visibility="hidden";read3.style.visibility="hidden";read4.style.visibility="hidden";read5.style.visibility="hidden";read6.style.visibility="hidden";
+  read1.style.display="none";read2.style.display="none";read3.style.display="none";read4.style.display="none";read5.style.display="none";read6.style.display="none";
+}
+</script>
+  </body>
+</html>

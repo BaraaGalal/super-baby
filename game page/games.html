@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Games</title>
+</head>
+<body>
+    <div class="banner">   
+        <img src="image/banner.png" alt="image banner" >
+        <div class="welcome">
+            <h2>Welcome To <br><span>The Kids Area</span></h2>
+        </div>
+    </div>
+    
+    <div id="nav">
+        <ul>
+            <li><a href="../home.html">home</a></li>
+        </ul>
+    </div>
+    <div id="header">
+        <h2>Games</h2>
+    </div>
+    <div id="image">
+        <ul>
+            <li><img id="imgagepuzzle" src="image/imgagepuzzle.jpeg"></li>
+            <li><img id="memoryGames" src="image/memoryGames.jpeg"></li>
+            <li><img id="math" src="image/math.jpeg"></li>
+            <li><img id="fallingball" src="image/fallingball.jpeg"></li>
+            <li><img id="numberpuzzle" src="image/numberpuzzle.jpeg"></li>
+            <li><img id="dragongame" src="image/dragongame.png"></li>
+        </ul>
+    </div><br>
+
+    <!--footer-->
+    <div id="footer">
+        <div id="footgrp"><!--to make them in left alignment-->
+            <h3>to contact with us:</h3>
+            <h3><span style="color:#bcfc02;">Email:</span>&nbsp;superbaby@gmail.com</h3>
+        </div>
+        <h5>super baby iti team work&copy;2021all right reserved</h5>
+    </div><!--footer-->
+        <script>
+        let features = 'menubar=yes, location=yes, resizable=no, scrollbars=yes,status=no';
+
+        let imgagepuzzle = document.getElementById('imgagepuzzle');
+        imgagepuzzle.addEventListener('click', (ev) => {
+            let game = window.open('games/imagespuzzle/index.html', "_blanck", features);
+        });
+
+        let memoryGames = document.getElementById('memoryGames');
+        memoryGames.addEventListener('click', (ev) => {
+            let game = window.open('games/memory-game/mamory.html', "_blanck", features);
+        });
+        
+        let math = document.getElementById('math');
+        math.addEventListener('click', (ev) => {
+            let game = window.open('games/math/index.html', "_blanck", features);
+        });
+        
+        let fallingball = document.getElementById('fallingball');
+        fallingball.addEventListener('click', (ev) => {
+            let game = window.open('games/ball_game/ballgame.html', "_blanck", features);
+        });
+        
+        let numberpuzzle = document.getElementById('numberpuzzle');
+        numberpuzzle.addEventListener('click', (ev) => {
+            let game = window.open('games/puzzle game/puzzle.html', "_blanck", features);
+        });
+        
+        let dragongame = document.getElementById('dragongame');
+        dragongame.addEventListener('click', (ev) => {
+            let game = window.open('games/Dragon-game-main/index.html', "_blanck", features);
+        });
+        
+    </script>
+    </body>
+</html>

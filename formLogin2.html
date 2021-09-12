@@ -1,0 +1,94 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formLogin2.css">
+    </head>
+
+<body>
+<div id="loginpanel" class="loginpanel">
+</div>
+<div  class="formcontainer">
+	<div class="tabs">
+        <div class="active" id="student" color="green" onclick="showStudent()">Student</div>
+        <div   id="parent"color="blue" onclick="showParent()">Parent</div>
+        <div   id="teacher" color="purple" onclick="showTeacher()">Teacher</div>
+    </div>
+	<div id="dialogedit"></div>
+	<div id="msg" class="error"></div>
+<form method="post" id="target" enctype="" onSubmit="trimFieldsBeforeSubmission();">
+	<label class="labeluser">username:</label><br/>
+<input   type="text" class="big" name="username" id="username" autocomplete="username" autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="1" value="" onkeydown="testForEnter();" placeholder="Type your username    &#xf007" /><br/>
+	<label class="labelpassword">password:</label><br/>
+<input type="password" class="big" name="password" autocomplete="current-password" id="password" autocorrect="off" autocapitalize="off" spellcheck="false" value="" tabindex="2" placeholder="Type your password    &#xf023" />
+	<div class="right" style="width:100%;">
+		<div class="right remember">
+			<input type="checkbox" name="remember" id="remember" value="1"  /><label for="remember">Remember Me</label>
+		</div>
+		<div class="left" style="margin:1em 0;width: 50%;white-space: nowrap;text-align: left;font-size: 0.9em;">
+			<a id="forgot" href="forgot" style="color:#55575e;text-decoration: none;font-family: asafeerEn;">Forgot login credentials</a>
+		</div>
+	</div>
+	<div class="right" style="width:100%;">
+		<input class="submitbutton" type="submit" tabindex="4" value="Login"/>
+	</div>
+	<input type="hidden" name="mode" id="mode" value=""/>
+</form>
+
+   
+</div>
+<script>
+    
+        var col = document.getElementsByTagName('form')[0]
+       var student = document.getElementById('student');
+       var parent = document.getElementById('parent');
+       var teacher = document.getElementById('teacher');
+    function showStudent(){
+        parent.classList.remove("active");
+    teacher.classList.remove("active");
+    student.classList.add("active");
+
+    //     student.style.visibility="visible";
+    //     student.style.display="block";
+    //     parent.style.visibility="hidden";
+    // //    parent.style.display="none";
+    //     teacher.style.visibility="hidden";
+    //    teacher.style.display="none";
+  }
+    //  student.addEventListener('click' ,function(){
+    //      col.style.backgroundColor = "darkcyan"; 
+    //    });
+function showParent(){
+    parent.classList.add("active");
+    teacher.classList.remove("active");
+    student.classList.remove("active");
+//     parent.style.visibility="visible";
+//     parent.style.display="block";
+//     student.style.visibility="hidden";
+//    // student.style.display="none";
+//     teacher.style.visibility="hidden";
+//    // teacher.style.display="none";
+}
+    // parent.addEventListener('click' ,function(){
+    //        col.style.backgroundColor = "cornflowerblue"; 
+    //    });
+    function showTeacher(){
+        parent.classList.remove("active");
+    teacher.classList.add("active");
+    student.classList.remove("active");
+    //     teacher.style.visibility="visible";
+    //     teacher.style.display="block";
+    //     parent.style.visibility="hidden";
+    //     //parent.style.display="none";
+    //     student.style.visibility="hidden";
+    //    // student.style.display="none";
+}
+    // teacher.addEventListener('click' ,function(){
+    //        col.style.backgroundColor = "aqua"; 
+    //    });
+  
+    
+    </script>
+    </body>
+</html>

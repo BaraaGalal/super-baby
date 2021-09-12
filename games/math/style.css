@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: #71C9CE;
+   color: rgb(119, 158, 93);
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 100px;
+    box-sizing:border-box;
+    align-items: center;
+    justify-content: center;
+    background: #A6E3E9;
+    width: 90%;
+    height: 500px;
+    margin: 50px auto;
+}
+
+#first-number , #second-number{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 125px;
+    height: 125px;
+    box-sizing: border-box;
+    border: 5px solid #68dfec;
+    color: #E3FDFD;
+    
+}
+
+input[type=number] {
+    min-width: 80px;
+    box-sizing: border-box;
+    border: 3px solid#3dd0d8;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    padding: 12px 20px 12px 40px;
+}
+#btn {
+    width: 130px;
+    padding: 12px 20px;
+    margin-left: 5px;
+    border: none;
+    background: #71C9CE;
+    color: white;
+    outline: none;
+    cursor: pointer;
+} 
+
+#operation, #equal {
+    font-size: 50px;
+    margin: 10px;
+}
+
+input[type=number]:focus {
+    border: none;
+    outline: none;
+    background: white;
+
+}
+

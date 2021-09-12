@@ -1,0 +1,125 @@
+*{    box-sizing: border-box;
+ max-width: 100vw;
+ overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url("../images/watercolorRainbow.jpg");
+    background-color: rgb(255, 255, 255) ;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}.contact{
+    margin-left: 700px;
+}.contact img{
+    margin: 10px;
+}
+.container2{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/Spring2021_background.jpg");
+}.pre{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #273d8d;
+    font-weight: bold;
+}
+.img1{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 10px;
+    width: 400px;
+    height: 350px;
+}
+.text1{
+    margin-top: 10px;
+    color: #273d8d;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}.container4{
+    background-color: #FFCC33;
+    height: 120px;
+    padding: 10px 0 0 10px;
+    margin-top: 20px;
+}.container5{
+    height: 120px;
+    padding-top: 10px;
+    margin-top: 0px;
+    font-weight: 500;
+    background-color: #125a10;
+    
+}.cont-im1{
+    position: relative;
+    height: 400px;
+    width: 380px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: #E7602D;
+    display: inline-block;
+}.cont-im2{
+    background-color: #A1559C;
+    height: 400px;
+    width: 380px;
+    display: inline-block;
+}
+.cont-im3{
+    background-color: #1BA7DE;
+    height: 400px;
+    width: 380px;
+    display: inline-block;
+}.cont-im4{
+    background-color: #896A3C;
+    height: 400px;
+    width: 380px;
+    display: inline-block;
+}.cont-im5{
+    background-color: #e1701a;
+    height: 400px;
+    width: 380px;
+    display: inline-block;
+}.cont-im6{
+    height: 400px;
+    width: 380px;
+    display: inline-block;
+    background-color: #de8971;
+}
+.cont-im7{
+    position: relative;
+    height: 400px;
+    width: 760px;
+    display: inline-block;
+}.cont-im8{
+    background-color: #AA366D;
+    height: 400px;
+    width: 380px;
+    display: inline-block;
+}.cont-im9{
+    background-color: #E76977;
+    height: 400px;
+    width: 380px;
+    display: inline-block;
+}
+.footer{
+    background: #155b13;
+    position: relative;
+    width: 100%;
+    padding: 16px 0 62px;
+    clear: both;
+}.table{
+    background: #125211;
+    font-size: 11px;
+    line-height: 14px;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 20px;
+}.social{display: inline-block;}

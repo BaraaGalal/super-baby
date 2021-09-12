@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png" type = "image/png" sizes="150x150">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/contactmedia.css">
+    <title>contact us</title>
+</head>
+<body onload="clear()">
+    <div id="container">
+        <div id="header">
+           <h1>Supper Baby</h1>
+           <span style="clear:both"></span>
+            <button class="login" onclick="window.location='Home.html'">go to home page</button>
+            
+        </div>
+        <!--section-->
+        <div id="contact" style="margin-bottom:40px;">
+           <div id="contact-div1" style="background-image:url('images/contactus.jpg');">
+               
+           </div>
+           <div>
+               <h1>contact us</h1>
+           </div>
+        </div>
+        <div id="cnt-form">
+        <h1>you can contact us as follow:</h1>
+        <form name="contactForm" action="#cnt-form" method="Get" style="padding:30px;">
+            <div>
+                <label for="fName">First Name</label><br><br>
+                <input type="text" id="fName" name="fname" onchange="hide(fnameErr)">
+                <div class="error" id="fnameErr"></div>
+            </div>
+            <div>
+                <label for="lName">Last Name</label><br><br>
+                <input type="text" id="lName" name="lName" onchange="hide(lnameErr)">
+                <div class="error" id="lnameErr"></div>
+            </div><br>
+            <div>
+                <label for="email">Email</label><br><br>
+                <input type="text" id="email" name="email" onchange="hide(emailErr)">
+                <div class="error" id="emailErr"></div>
+            </div>
+            <div>
+                <label for="phone">phone number</label><br><br>
+                <input type="text" id="phone" name="phone" onchange="hide(mobileErr)">
+                <div class="error" id="mobileErr"></div>
+            </div><br>
+            
+            <div>
+                <label for="schoolName">School Name</label><br>
+                <input type="text" id="schoolName" name="schoolName" onchange="hide(snameErr)">
+                <div class="error" id="snameErr"></div>
+            </div>
+            <div>
+                <label for="job">job Description</label><br><br>
+                <input type="text" id="job" name="job" onchange="hide(jnameErr)">
+                <div class="error" id="jnameErr"></div>
+            </div><br>
+            <h1 id="cnt-us"></h1>
+            <div>
+                <input type="submit" value="Submit" onclick="return validateForm()">
+            </div>
+        </form>
+        </div>
+   
+    
+<script src="js/contact.js"></script>
+</body>
+</html>

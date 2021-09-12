@@ -1,0 +1,116 @@
+/*#header{display:none;}
+body{margin:0;padding:0;background-color:#3d8700;font-family:AsafeerFont,AsafeerEn;color:#55575e;overflow: hidden;}
+label,input,div,p{font-family:asafeerFont,asafeerEn;}
+body.blue{background-color:#01938b !important;}
+body.blue , body.blue input.submitbutton{background-color:#00baaf !important;}
+
+body.blue .tabs div.active:before,body.blue img.userpic:hover{border-color: #00baaf !important;}
+body.purple{background-color:#6927a3 !important;}
+body.purple , body.purple input.submitbutton{background-color:#a74fee !important;}
+body.purple {background-image:url('https://static.3asafeer.com/images/teacherbg.webp');}	
+body.purple .tabs div.active:before,body.purple img.userpic:hover{border-color: #a74fee !important;}
+.error{
+	color:#d44a32;
+	text-align:center;
+	padding:1em;
+	line-height:1.2em;
+	width:100%;
+	box-sizing:border-box;
+	margin:1em;
+	float:right;
+}
+input[type="checkbox"]{margin:1.5em 0 1.5em 0.5em;}
+#loginpanel{
+		border-radius: 1vw;
+		margin: 5vh auto;
+		width: 75%;
+		height: 90vh;
+		background-color: #fff;
+		box-shadow: 0px 10px 15px rgba(0,0,0,0.25)!important;
+	}
+.formcontainer{float:right;padding:2% 2em;width:60%;box-sizing:border-box;}
+	.tabs{display: grid;grid-template-columns: repeat(3, 30%);grid-column-gap: 2vw;margin: 1% auto 2% auto;width:100%;position:relative;}
+	.tabs div{float:left;text-align:center;font-size: 1.5vw;font-family: asafeerEn;position: relative;cursor:pointer;color:#b4b4b4;}
+	.formcontainer input[type="text"],.formcontainer input[type="password"]{border-radius:2em;margin:0.5vh 0 1vh 0;border:2px solid #d9d9d9;padding:1em;font-size:1vw;width:100%;background: #fff;font-family: asafeerEn,fontAwesome;direction:ltr;text-align:left;
+}
+
+	.tabs div.active{color:#63636c;}
+	.tabs div.active:before {
+    border: 4px solid #77B52E;
+    border-radius: 4px;
+    content: " ";
+    position: absolute;
+    width: 90%;
+    box-sizing: border-box;
+    right: 5%;
+    bottom: -60%;
+}
+.tabs:before{border: 4px solid #f0f0f0;
+    border-radius: 4px;
+    content: " ";
+    position: absolute;
+    width: 90%;
+    box-sizing: border-box;
+    right: 5%;
+    bottom: -60%;}*/
+body{margin:0;
+    padding:0;
+    font-family:AsafeerFont,AsafeerEn;
+    color:#55575e;
+    overflow: hidden;
+    background-image:url(hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg)
+}
+label,input,div,p{font-family:asafeerFont,asafeerEn;
+}
+.formcontainer{float:right;
+    padding:2% 2em;width:60%;
+    box-sizing:border-box;
+}
+.formcontainer input[type="text"],.formcontainer input[type="password"]{border-radius:2em;
+    margin:0.5vh 0 1vh 0;
+    border:2px solid #d9d9d9;
+    padding:1em;
+    font-size:1vw;
+    width:100%;
+    background: #fff;
+    font-family: asafeerEn,fontAwesome;
+    direction:ltr;
+    text-align:left;}
+.formcontainer{
+    width:100%;
+}
+	.submitbutton{color:#fff;border-radius:2em;padding:0.5em;border:0;font-size:1.3vw;background-color:#58ae02;width:200px;margin:1vh auto 0 auto;}
+
+form{
+    width: 60%;
+    margin: 1em auto;
+}
+.tabs{display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-column-gap: 2vw;
+    margin: 1% auto 2% auto;
+    width:100%;position:relative;}
+	.tabs div{float:left;
+        text-align:center;font-size: 1.5vw;
+        font-family: asafeerEn;
+        position: relative;
+        cursor:pointer;color:#b4b4b4;
+}
+.tabs div.active{color:#63636c;}
+	.tabs div.active:before  {
+    border: 4px solid #77B52E;
+    border-radius: 4px;
+    content: " ";
+    position: absolute;
+    width: 90%;
+    box-sizing: border-box;
+    right: 5%;
+        bottom: -60%;}
+        .tabs:before{border: 4px solid #f0f0f0;
+    border-radius: 4px;
+    content: " ";
+    position: absolute;
+    width: 90%;
+    box-sizing: border-box;
+    right: 5%;
+    bottom: -60%;}

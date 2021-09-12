@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos & Songs</title>
+   <link rel="stylesheet" href="style(V&S) .css">
+  </head>
+  <body>
+<table >
+  <button class="login" onclick="window.location='../Home.html'">go to home page</button>
+  <div class="container">
+
+    <tr>
+      <td colspan="2" >
+        <div class="btnscover">
+          <button id="btnsongs" onclick="showsong()">Songs</button>
+        <button id="btnvideos" onclick="showvideo()">Videos</button>
+        </div>
+        
+      </td>
+     
+    </tr>
+  <tr>
+    <td>
+      <div class="first-video" id="video1">
+        <a href="video1.html">
+        <img src="imgs/11.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p> كارتون سابق ولاحق </p></a>
+      </div>
+   
+    <div class="second-song" id="song2">
+          <a href="song2.html">
+            <img src="imgs/2.jpg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+            <p>الاطفال السعداء</p></a>
+        </div>
+    </td>
+    <td>
+     <div class="first-song" id="song1">
+        <a href="song1.html ">
+        <img src="imgs/1.jpg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p>الكتاكيت</p></a>
+      </div>
+        <div class="second-video" id="video2">
+          <a href="video2.html">
+            <img src="imgs/12.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+            <p> كارتون بكار </p></a>
+        </div>
+        
+      </td>
+      </tr>
+      <tr>
+        <td><div class="third-video" id="video3">
+        <a href="video3.html">
+          <img src="imgs/13.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+          <p>توم وجيرى</p></a>
+      </div> 
+     <div class="fourth-song" id="song3">
+        <a href="song3.html">
+        <img src="imgs/3.jpg" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p>بابا جاى امتا</p></a>
+      </div>
+     
+    </td>
+      <td>
+          <div class="fourth-video" id="video4">
+        <a href="video4.html">
+        <img src="imgs/14.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p> سبونج بوب</p></a>
+      </div>
+       <div class="third-song" id="song4">
+        <a href="song4.html">
+          <img src="imgs/5.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+          <p>أنا الفرخة واحنا الكتاكيت</p></a>
+      </div>
+      
+      </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="first-video" id="video5">
+        <a href="video5.html">
+        <img src="imgs/15.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p>  عالم غامبول المدهش </p></a>
+      </div>
+   
+    <div class="second-song" id="song5">
+          <a href="song5.html">
+            <img src="imgs/6.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+            <p>ذهب الليل وطلع الفجر</p></a>
+        </div>
+    </td>
+    <td>
+     <div class="first-song" id="song6">
+        <a href="song6.html">
+        <img src="imgs/7.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+        <p> هاليصيصان شو حلوين</p></a>
+      </div>
+        <div class="second-video" id="video6">
+          <a href="video6.html">
+            <img src="imgs/16.JPG" alt=""  style="width:430px; height:350px;border-top-left-radius: 7%; border-top-right-radius:7% ;"><br><br>
+            <p>  الابطال الخارقين</p></a>
+        </div>
+        
+      </td>
+      </tr>
+</div>
+</table>
+<script>
+  var btnsongs=document.getElementById("btnsongs");
+  var btnvideos=document.getElementById("btnvideos");
+  var song1=document.getElementById("song1");
+  var song2=document.getElementById("song2");
+  var song3=document.getElementById("song3");
+  var song4=document.getElementById("song4");
+  var song5=document.getElementById("song5");
+  var song6=document.getElementById("song6");
+
+  var video1=document.getElementById("video1");
+  var video2=document.getElementById("video2");
+  var video3=document.getElementById("video3");
+  var video4=document.getElementById("video4");
+  var video5=document.getElementById("video5");
+  var video6=document.getElementById("video6");
+
+  
+  function showsong(){
+song1.style.visibility="visible";song2.style.visibility="visible";song3.style.visibility="visible";song4.style.visibility="visible";song5.style.visibility="visible";song6.style.visibility="visible";
+song1.style.display="block";song2.style.display="block";song3.style.display="block";song4.style.display="block";song5.style.display="block";song6.style.display="block"; 
+video1.style.visibility="hidden";video2.style.visibility="hidden";video3.style.visibility="hidden";video4.style.visibility="hidden";video5.style.visibility="hidden";video6.style.visibility="hidden"; 
+video1.style.display="none";video2.style.display="none";video3.style.display="none";video4.style.display="none";video5.style.display="none";video6.style.display="none";song5.style.marginTop="auto";
+
+
+  }
+function showvideo(){
+  video1.style.visibility="visible"; video2.style.visibility="visible";video3.style.visibility="visible";video4.style.visibility="visible";video5.style.visibility="visible";video6.style.visibility="visible";
+  video1.style.display="block"; video2.style.display="block";video3.style.display="block";video4.style.display="block";video5.style.display="block";video6.style.display="block";
+  song1.style.visibility="hidden"; song2.style.visibility="hidden";song3.style.visibility="hidden";song4.style.visibility="hidden";song5.style.visibility="hidden";song6.style.visibility="hidden";
+  song1.style.display="none";  song2.style.display="none"; song3.style.display="none"; song4.style.display="none"; song5.style.display="none"; song6.style.display="none";video6.style.marginTop="auto";
+}
+</script>
+  </body>
+</html>

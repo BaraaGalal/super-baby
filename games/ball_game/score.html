@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <style>
+        div {
+            position: relative;
+            width: 50%;
+            height: 50%;
+            background-color: #9c2222;
+            text-align: center;
+            margin: 50px 50px 50px 380px;
+
+        }
+
+        p {
+            color: white;
+            font-size: 5em;
+        }
+
+        button {
+            font-size: 2em;
+
+        }
+
+        body {
+            background-color: #35383C;
+        }
+    </style>
+</head>
+
+<body>
+    <div>       
+        <p> Game over <br>
+            your score is : </p>
+            <button onclick="playagain()">play again</button> 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="exit()">Exit</button>
+
+    </div>
+   
+    <script>
+        //  var div = document.createElement( 'div' );
+        // var p = document.createElement( 'p' );
+        // var button1 = document.createElement( 'button' );
+        // button1.setAttribute("onclick=(playagain)")
+        // var button2 = document.createElement( 'button' );
+        // document.appendChild(div);
+        // div.appendChild(p);
+        // div.appendChild(button1);
+        // div.appendChild(button2);
+        // p.innerHTML='Game over <br> your score is :'+(counter-9);
+     
+        // var pa = document.createElement("P");
+        // var msg = document.createTextNode("Game over your score is :" );
+        // pa.appendChild(msg);
+        // document.getElementById("div").appendChild(pa);
+
+
+
+
+        function playagain() {
+            window.location.assign("ballgame.html");
+        }
+        function exit() {
+
+            window.close("ballgame.html");
+            window.close("score.html");
+
+        }
+    </script>
+    <script src="ballgame.js"></script>
+</body>
+
+</html>

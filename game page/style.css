@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(202, 198, 198);
+    
+}
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+    }
+
+.banner {
+    position: relative;
+}
+.banner img {
+    width: 100%;
+    height: 500px;
+}
+.banner .welcome {
+    background-color: #2978b5;
+    color: #fff;
+    padding: 0px;
+    position: absolute;
+    left: 60.3%;
+    top: 32%;
+}
+.banner h2 {
+    padding: 50px;
+    font-size: 50px;
+}
+
+.banner h2 span {
+    font-size: 1.3em;
+}
+
+#nav {
+    background-color: #eee;
+    padding: 20px;
+    position: relative;
+    top: -4px;
+    left: -40px;
+    margin: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav ul {
+    max-width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#nav li {
+    list-style-type: none;
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #4b4b4b;
+    position: relative;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+#header h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+#image {
+    margin: 50px auto;
+    box-sizing: border-box;
+    border: 1px solid white;
+    width: 90%;
+    height: 530px;
+    background-color: #eee;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#image ul{
+    padding: 50px;
+    margin: auto;
+}
+#image li {
+    float: left;
+    width: 25%;
+    margin: auto 4%;
+    list-style-type: none; 
+}
+#image li img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+#footer {
+    background-color: red;
+    width: 100%;
+    height: 200px;
+}
+#image li:hover {
+    cursor: pointer;
+}
+/****footer****/
+#footer{
+    background-color:#098dcb;
+    height:100px;
+    margin-top:60px;
+    color:white;
+    text-align: center;
+    padding-top:30px;
+}
+#footer h5{
+padding-top:19px;
+}
+
+#footer #footgrp{
+    text-align:center;
+    line-height:30px;
+    text-indent: 20px;
+}
+
+
+@media screen and (max-width: 1005px) {
+    .banner img {
+        height: 450px;
+    }
+    .banner .welcome h2{
+         font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .banner img {
+        height: 400px;
+    }
+    .banner .welcome h2{
+         font-size: 25px;
+    }
+    #image {
+        width: 98%;
+        height: 800px;        
+    }
+    #image li {
+        float: left;
+        width: 40%;
+        margin: auto 5%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .banner img {
+        height: 300px;
+    }
+    .banner .welcome h2{
+         font-size: 40px;
+    }
+    .banner h2 span {
+        font-size: 1em;
+    }
+    .banner .welcome {
+        position: relative;
+        text-align: center;
+        padding: 5px;
+        left: 0;
+        top: 0;
+    }
+    .banner .welcome br {
+        display: none;
+    }
+    #image {
+        height: 1500px;        
+    }
+    #image li {
+        float: left;
+        width: 100%;
+        margin: auto ;
+    }
+} 
+@media screen and (max-width: 650px) {
+    .banner img {
+        height: 200px;
+    }
+    #image {
+        height: 1500px;        
+    }
+    #image li {
+        float: left;
+        width: 100%;
+        margin: auto;
+    }
+}

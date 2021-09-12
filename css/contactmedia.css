@@ -1,0 +1,63 @@
+@media (min-width: 376px) {
+    #cnt-form div {
+        display: inline-block;
+        width: 100%;
+        border:1 px solid black;
+        padding:0;
+    }
+    cnt-form div:last-of-type {
+        text-align: center;
+        margin-left:0;
+        margin-top: 20px;
+    }
+    #cnt-form{
+        background-color:white;
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+        padding-top:40px;
+        border-radius:20px;
+        padding-bottom:30px;
+    }
+    #contact-div1{
+        background-position:left;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #contact-div1{
+        background-position:left center;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #cnt-form div:last-of-type {
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    #cnt-form div input{
+        width:100%;
+        height:30px;
+        border-radius:20px;
+    }
+    #cnt-form{
+        background-color:white;
+        width:80%;
+        margin:auto;
+        overflow:hidden;
+        padding-top:40px;
+        border-radius:20px;
+        padding-bottom:30px;
+    }
+    #cnt-form div{
+        display:inline-block;
+        width:40%;
+        margin:auto;
+        padding-left:40px;
+    }
+    
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
